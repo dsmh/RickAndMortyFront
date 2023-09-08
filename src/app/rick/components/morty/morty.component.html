@@ -1,7 +1,7 @@
 <mat-list>
     <mat-list-item *ngFor="let item of characters.results" (click)="openDialog(item)">
         <img matListAvatar [src]="item.image" alt="Character image">
-        <h3 matLine>{{ item.name }}</h3>
+        <h2 matLine>{{ item.name }}</h2>
         <p mat-line>
             status: {{ item.status }} - species: {{ item.species}}
         </p>

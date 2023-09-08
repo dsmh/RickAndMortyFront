@@ -18,5 +18,9 @@ export class ApiService {
     return this.http.get(this.baseUrl+'/character', this.options);
   }
 
+  getLocations() {
+    return this.http.get(this.baseUrl+'/location', this.options);
+  }
+
 
 }
